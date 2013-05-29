@@ -5,15 +5,15 @@ Random bits
 
 Like many other people, I am a huge fan of *Calvin and Hobbes*. When I was a
 kid, I was fortunate enough that my parents would buy me the anthologies so that
-I could read them whenever I felt like it. When I would happen accross a cartoon
+I could read them whenever I felt like it. When I would happen across a cartoon
 that I thought was particularly funny, I'd write down the page number in a table
 on the inside cover. Now, when I look through those books, it amuses me to see
 the overlap between what I found funny then and what I find funny now. There is
 quite a bit of overlap, though now that I have more "life" experience, I can
 better appreciate the depth that some of the cartoons hold. My younger self
-lacked this knowlege.
+lacked this knowledge.
 
-This collection of thoughts is my new inner cover. I hope to someday return to
+This collection of thoughts is my new inside cover. I hope to someday return to
 what I have written here and evaluate how much I've grown (and hopefully I will
 have changed for the better). I don't consider myself to be an expert in my
 field, but I do consider myself to be opinionated about the "right" way to do
