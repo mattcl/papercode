@@ -17,7 +17,13 @@ This collection of thoughts is my new inside cover. I hope to someday return to
 what I have written here and evaluate how much I've grown (and hopefully I will
 have changed for the better). I don't consider myself to be an expert in my
 field, but I do consider myself to be opinionated about the "right" way to do
-things. It will amuse me to look back on how my opinions change. Perhaps, if you
-are not my future self, it will amuse you as well.
+things. It will amuse me to look back on how my opinions change.
+
+I am also a fan of origami. I could get all philosophical and tell you about how
+every fold matters, and how it's the journey, not the destination, but the truth
+is that it's a cheap hobby, and I have too many expensive ones. Also, girls love
+it, or so I'm told. I'll try to fold a different model for each post, if only to
+serve as something worthwhile for you or my future self to look at if my
+ramblings turn out to be indecipherable.
 
 ~ Matt
