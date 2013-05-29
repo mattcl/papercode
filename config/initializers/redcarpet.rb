@@ -3,9 +3,10 @@ class FoundationRenderer < Redcarpet::Render::HTML
   include ActionView::Context
 
   def block_code(code, language)
-    content_tag :pre do
-      content_tag :code, code, :data => { :language => language }
-    end
+    Pygments.highlight(code, :lexer => language, :options => { :linespans => 'line' })
+    # content_tag :pre do
+    #   content_tag :code, code, :data => { :language => language }
+    # end
   end
 
   def header(text, header_level)

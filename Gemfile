@@ -41,6 +41,8 @@ gem "high_voltage"
 gem "redcarpet"
 gem "simple_form"
 gem "zurb-foundation", :group => [:assets]
+gem "pygments.rb"
+
 group :development, :test do
   gem "rspec-rails", "> 2.10.0"
   gem "capybara"

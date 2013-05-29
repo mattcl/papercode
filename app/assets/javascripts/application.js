@@ -15,7 +15,6 @@
 //= require foundation
 //= require raphael-min
 //= require morris.min
-//= require rainbow-custom.min
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
