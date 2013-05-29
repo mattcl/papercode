@@ -1,0 +1,16 @@
+.bundle
+.DS_Store
+.sass-cache/*
+*.swp
+*.swo
+**/.DS_STORE
+bin/*
+bundler_stubs/*
+config/database.yml
+db/*.sqlite3
+log/*.log
+log/*.pid
+public/system/*
+public/stylesheets/compiled/*
+public/assets/*
+tmp/*
