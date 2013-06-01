@@ -1,6 +1,8 @@
 Random bits
 ===========
 
+![butterflies](origami/butterflies.png)
+
 *-5/30/2013*
 
 Like many other people, I am a huge fan of *Calvin and Hobbes*. When I was a

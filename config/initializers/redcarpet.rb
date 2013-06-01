@@ -1,6 +1,9 @@
 class FoundationRenderer < Redcarpet::Render::HTML
-  include ActionView::Helpers::TagHelper
   include ActionView::Context
+  include ActionView::Helpers::AssetTagHelper
+  include ActionView::Helpers::TagHelper
+  include Sprockets::Helpers::IsolatedHelper
+  include Sprockets::Helpers::RailsHelper
 
   def block_code(code, language)
     Pygments.highlight(code, :lexer => language, :options => { :linespans => 'line' })
@@ -24,6 +27,10 @@ class FoundationRenderer < Redcarpet::Render::HTML
 
   def block_quote(quote)
     content_tag :div, quote.html_safe, :class => 'panel'
+  end
+
+  def image(link, title, alt_text)
+    image_tag link, :alt => alt_text
   end
 end
 
