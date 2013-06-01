@@ -42,6 +42,7 @@ gem "redcarpet"
 gem "simple_form"
 gem "zurb-foundation", :group => [:assets]
 gem "pygments.rb"
+gem "capistrano"
 
 group :development, :test do
   gem "rspec-rails", "> 2.10.0"
