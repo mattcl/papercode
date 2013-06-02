@@ -8,7 +8,7 @@ set :scm_verbose, true
 set :deploy_via, :remote_cache
 
 set :use_sudo, false
-ssh_options[:forward_agent] = true
+set :ssh_options, { :forward_agent => true }
 
 require 'bundler/capistrano'
 
