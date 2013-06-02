@@ -28,12 +28,12 @@ set :rails_env, 'production'
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
 namespace :db do
-  task :copy_database_yml do
-    run "cp #{shared_path}/database.yml #{release_path}/config/database.yml"
+  task :db_config do
+    run "cp #{shared_path}/database.yml #{release_path}/config/"
   end
 end
 
-after 'eploy:finalize_update', 'db:db_config'
+after 'deploy:finalize_update', 'db:db_config'
 
 # If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
