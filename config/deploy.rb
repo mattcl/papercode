@@ -37,6 +37,6 @@ namespace :deploy do
 #   end
 
   task :copy_database_yml do
-    run "cp #{shared_path}/databasae.yml #{release_path}/config/database.yml"
+    run "cp #{shared_path}/database.yml #{release_path}/config/database.yml"
   end
 end
