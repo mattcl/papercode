@@ -42,4 +42,13 @@ namespace :deploy do
 #   task :restart, :roles => :app, :except => { :no_release => true } do
 #     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
 #   end
+  task :start do
+    run "sudo sv up papercode"
+  end
+  task :stop do
+    run "sudo sv down papercode"
+  end
+  task :restart, :roles => :app, :except => { :no_release => true } do
+    run "sudo sv restart papercode"
+  end
 end
